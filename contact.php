@@ -1,0 +1,16 @@
+<!DOCTYPE html><html dir="rtl"><head><meta charset="UTF-8"><title>تواصل</title><style>
+body{font-family:system-ui;background:#f0f2f5;padding:20px}
+.card{background:#fff;max-width:380px;margin:auto;padding:20px;border-radius:15px;text-align:center}
+input,textarea{width:90%;padding:10px;margin:5px;border:1px solid #ccc;border-radius:8px}
+.btn{background:#667eea;color:#fff;padding:10px;border:none;border-radius:8px;width:95%}
+</style></head><body><div class="card">
+<h3>تواصل معي</h3>
+<form method="post">
+<input name="name" placeholder="اسمك" required>
+<input name="email" placeholder="ايميلك" required>
+<textarea name="msg" placeholder="رسالتك" required></textarea>
+<button class="btn" name="send">ارسال</button>
+</form>
+<?php if(isset($_POST['send'])){echo "<p style=color:green>تم الارسال شكرا يا ".$_POST['name']."!</p>";}?>
+<br><a href="index.php">← رجوع للبروفايل</a>
+</div></body></html>
