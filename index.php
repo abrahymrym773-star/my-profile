@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html dir="rtl"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>بروفايلي</title><style>
+body{font-family:system-ui;background:linear-gradient(135deg,#667eea,#764ba2);margin:0;padding:20px}
+.card{background:#fff;max-width:380px;margin:30px auto;padding:25px;border-radius:20px;text-align:center}
+img{width:110px;height:110px;border-radius:50%}
+.btn{background:#667eea;color:#fff;padding:10px 25px;border:none;border-radius:20px;display:inline-block;margin-top:10px;text-decoration:none}
+.skill{background:#eee;padding:5px 10px;border-radius:12px;margin:2px;display:inline-block}
+</style></head><body>
+<div class="card">
+<img src="https://i.pravatar.cc/150">
+<h2>ابراهيم - طالب IT</h2>
+<p>مشروع مادة PHP</p><hr>
+<span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">PHP</span><span class="skill">MySQL</span>
+<p>موقعي الشخصي لأعمال السنة</p>
+<a class="btn" href="contact.php">تواصل معي</a>
+</div></body></html>
